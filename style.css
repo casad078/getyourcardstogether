@@ -60,7 +60,7 @@ body {
 
 .up:not(:hover) {
     animation-name: slidebackup;
-  animation-duration: 1s;
+  animation-duration: .5s;
 }
 
 #about {
@@ -91,7 +91,7 @@ body {
 
 .down:not(:hover) {
   animation-name: slidebackdown;
-  animation-duration: 1s;
+  animation-duration: .5s;
 }
 
 @keyframes slideDown {
