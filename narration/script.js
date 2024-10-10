@@ -64,7 +64,7 @@ function setupRedirectButton() {
     // Set up the new click event to redirect
     newButton.addEventListener('click', () => {
         // Replace the URL below with your desired redirect URL
-        window.location.href = 'https://www.example.com';
+        window.location.href = 'https://casad078.github.io/getyourcardstogether/cards/index.html';
     });
 }
 
