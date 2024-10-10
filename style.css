@@ -1,0 +1,159 @@
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 800 */
+
+/* .newsreader-<uniquifier> {
+  font-family: "Newsreader", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.instrument-serif-regular {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.instrument-serif-regular-italic {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+ */
+
+body {
+  background-color: black;
+  color: white;
+  overflow: hidden;
+  animation: opacity 3s ease;
+}
+
+
+@keyframes opacity{
+    0%{opacity: 0;}
+    100%{ opacity: 1;}
+  }
+
+.homeimages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeimages img {
+  width: 100%;
+  transition: 1s;
+}
+
+.up {
+  position: relative;
+  top: -200px;
+  transition: 1s;
+}
+
+.up:hover {
+  animation-name: slideDown;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  cursor: pointer;
+}
+
+.up:not(:hover) {
+    animation-name: slidebackup;
+  animation-duration: 1s;
+}
+
+#about {
+  left: 50px;
+}
+
+#cards {
+  right: 30px;
+}
+
+#begin {
+  right: 67px;
+}
+
+.down {
+  position: relative;
+  bottom: -300px;
+  right: 40px;
+  transition: 1s;
+}
+
+.down:hover {
+  animation-name: slideUp;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  cursor: pointer;
+}
+
+.down:not(:hover) {
+  animation-name: slidebackdown;
+  animation-duration: 1s;
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(200px);
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-200px);
+  }
+}
+
+@keyframes slidebackdown {
+  0% {
+    transform: translateY(-200px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slidebackup {
+  0% {
+    transform: translateY(200px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.colo1 p {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 5px;
+  font-family: "Newsreader", serif;
+  font-size: 12px;
+}
+
+.heading1 h1 {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 40px;
+}
+
+.heading1 {
+  width: 30%;
+  display: flex;
+  z-index: -1;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  bottom: 620px;
+}
+
