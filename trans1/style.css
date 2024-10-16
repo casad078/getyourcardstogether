@@ -1,0 +1,64 @@
+body {
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+
+#background1 {
+    z-index: 1;
+    margin-top: -40px;
+}
+
+#background1 img {
+    width: 105%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cards img {
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 20px;
+}
+
+#cards {
+    position: relative;
+    bottom: 70%;
+    left: 25.5%;
+}
+
+#cards img:hover {
+    animation-name: shake-image;
+    animation-duration: 1.8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake-image{
+    0% {transform: translate(1px,1px) rotate(0deg);}
+    5% {transform: translate(-1px,-2px) rotate(-2deg);}
+    10% {transform: translate(-3px,0px) rotate(2deg);}
+    15% {transform: translate(3px,2px) rotate(0deg);}
+    20% {transform: translate(1px,-1px) rotate(2deg);}
+    25% {transform: translate(-1px,2px) rotate(-2deg);}
+    30% {transform: translate(-3px,1px) rotate(0deg);}
+    35% {transform: translate(3px,1px) rotate(-2deg);}
+    40% {transform: translate(-1px,-1px) rotate(2deg);}
+    45% {transform: translate(1px,2px) rotate(0deg);}
+    50% {transform: translate(1px,-2px) rotate(-2deg);}
+    55% {transform: translate(-3px,0px) rotate(2deg);}
+    60% {transform: translate(3px,2px) rotate(0deg);}
+    65% {transform: translate(1px,-1px) rotate(2deg);}
+    70% {transform: translate(-1px,2px) rotate(-2deg);}
+    75% {transform: translate(-3px,1px) rotate(0deg);}
+    80% {transform: translate(3px,1px) rotate(-2deg);}
+    85% {transform: translate(-1px,-1px) rotate(2deg);}
+    90% {transform: translate(1px,2px) rotate(0deg);}
+    95% {transform: translate(1px,-2px) rotate(-2deg);}
+    100% {transform: translate(-3px,0px) rotate(2deg);}
+}
+
+#fool img{
+    padding-top: 20px;
+}
