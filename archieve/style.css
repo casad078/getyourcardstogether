@@ -1,18 +1,24 @@
 * {
     box-sizing: border-box;
   }
+/* 
+  font-family: "Newsreader", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal; */
   
   body {
     margin: 0;
     overflow: hidden;
     background-color: black;
+    color: white;
   }
   
   
   .marquee-content1 {
     display: flex;
     animation: scrolling 50s linear infinite;
-    padding-top: 20px;
+    padding-top:10px;
   }
   
   .marquee-item1 {
@@ -24,7 +30,7 @@
   
   .marquee-item1 img {
     display: block;
-    width: 60%;
+    width: 55%;
   /*   padding: 0 20px; */
   }
   
@@ -36,7 +42,7 @@
   
   .marquee2 {
   /*   overflow: hidden; */
-    padding-top: 20px;
+    padding-top: 10px;
   }
   
   .marquee-content2 {
@@ -53,7 +59,7 @@
   
   .marquee-item2 img {
     display: block;
-    width: 60%;
+    width: 55%;
   /*   padding: 0 20px; */
   }
   
@@ -124,4 +130,29 @@
     font-size: 35px;
     font-weight: bold;
     cursor: pointer;
+  }
+
+  button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-family: "Newsreader", serif;
+    font-style: normal;
+    font-size: 15px;
+  }
+
+  button:hover {
+    cursor: pointer;
+    font-style: italic;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .center {
+    position: absolute;
+    bottom: 0;
+    left: 49%;
+    padding-bottom: 15px;
   }
