@@ -37,6 +37,7 @@ body {
     left: 300px;
     margin: 20px;
     padding-bottom: 30px;
+    color: white;
   }
   
 #skip button {
@@ -50,6 +51,7 @@ body {
     bottom: 0;
     right: 0;
     padding: 30px;
+    color: white;
   }
 
   #skip button:hover {
