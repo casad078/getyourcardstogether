@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+  }
+  
+  
+  .marquee-content1 {
+    display: flex;
+    animation: scrolling 30s linear infinite;
+  }
+  
+  .marquee-item1 {
+    flex: 0 0 16vw;
+    margin: 0 1vw;
+  /*   flex: 0 0 20vw; */
+  /*   margin: 0 2vw; */
+  }
+  
+  .marquee-item1 img {
+    display: block;
+    width: 60%;
+  /*   padding: 0 20px; */
+  }
+  
+  @keyframes scrolling {
+    0% { transform: translateX(0); }
+    100% { transform: translatex(-144vw); }
+  }
+  
+  
+  .marquee2 {
+  /*   overflow: hidden; */
+    padding-top: 20px;
+  }
+  
+  .marquee-content2 {
+    display: flex;
+    animation: scrollingBack 30s linear infinite;
+  }
+  
+  .marquee-item2 {
+    flex: 0 0 16vw;
+    margin: 0 1vw;
+  /*   flex: 0 0 20vw; */
+  /*   margin: 0 2vw; */
+  }
+  
+  .marquee-item2 img {
+    display: block;
+    width: 60%;
+  /*   padding: 0 20px; */
+  }
+  
+  @keyframes scrollingBack {
+    0% { transform: translateX(-144vw); }
+    100% { transform: translatex(0); }
+  }
+  
+  /* base code by Hani Shawa
