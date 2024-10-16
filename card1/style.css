@@ -10,6 +10,53 @@ body {
 }
 
 .foolim img {
-    width: 20%;
-    padding-top: 80px;
+    width: 30%;
+    margin-top: 25px;
+}
+
+.foolpause {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foolpause img {
+    width: 21%;
+    margin-top: 115px;
+}
+
+.click1 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 20%;
+    left: 55%;
+}
+
+.click2 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 30%;
+    right: 40%;
+}
+
+.click3 {
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 25%;
+    left: 42%;
+}
+
+.click4 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 22%;
+    left: 42%;
+}
+
+.click1:hover, .click2:hover, .click3:hover, .click4:hover {
+    cursor: pointer;
 }

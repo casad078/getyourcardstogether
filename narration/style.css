@@ -35,3 +35,20 @@
     padding-bottom: 30px;
   }
   
+#skip button {
+    background-color: transparent;
+    border: none;
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;;
+    font-style: normal;
+    font-size: 15px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 30px;
+  }
+
+  #skip button:hover {
+    cursor: pointer;
+    font-style: italic;
+  }
