@@ -1,0 +1,183 @@
+body {
+    background: black;
+    overflow: hidden;
+    color: white;
+}
+
+img::selection, p::selection, span::selection {
+    background-color: transparent;
+}
+
+.foolim {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foolim img {
+    width: 30%;
+    margin-top: 25px;
+}
+
+.foolpause {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foolpause img {
+    width: 21%;
+    margin-top: 115px;
+}
+
+.click1 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 16%;
+    left: 54%;
+}
+
+.click2 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 28%;
+    right: 40%;
+}
+
+.click3 {
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 25%;
+    left: 42%;
+}
+
+.click4 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 22%;
+    left: 42%;
+}
+
+.click1:hover, .click2:hover, .click3:hover, .click4:hover {
+    cursor: pointer;
+    opacity: 60%;
+    background-color: black;
+    filter: blur(20px);
+    border-radius: 100%;
+
+}
+
+.text-container {
+    color: white;font-family: "Newsreader", serif;
+    font-optical-sizing: auto;;
+    font-style: normal;
+    font-size: 20px;
+    z-index: 5;
+    position: fixed;
+    top: 0;
+    padding: 25px;
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    font-family: "Newsreader", serif;
+    font-style: normal;
+    color: white;
+    font-size: 15px;
+}
+
+button:hover {
+    cursor: pointer;
+    font-style: italic;
+}
+
+a {
+    position:absolute;
+    bottom: 0;
+    left: 46.5%;
+    padding: 20px;
+}
+
+p {
+    color: white;font-family: "Newsreader", serif;
+    font-optical-sizing: auto;;
+    font-style: normal;
+    font-size: 23px;
+}
+
+span {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+#content1 img {
+    position: absolute;
+    top: 20px;
+    right: 15%;
+    width: 25%;
+}
+
+#content1 p {
+    width: 20%;
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    font-size: 26px;
+}
+
+#content2 img {
+    width: 20%;
+    position: absolute;
+    bottom: 0;
+    right: 20%;
+}
+
+#content2 p {
+    width: 20%;
+    position: absolute;
+    bottom: 0;
+    right: 2%;
+}
+
+#content3 span {
+    font-size: 140px;
+    position: absolute;
+    top: 78%;
+    left: 10px;
+    color: white;
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+#content3 img {
+    width: 10%;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+}
+
+#content3 p {
+    width: 20%;
+    position: absolute;
+    top: 10%;
+    left: 2%;
+}
+
+#content4 p {
+    width: 20%;
+    position: absolute;
+    left: 18%;
+    bottom: 19%;
+    font-size: 18px;
+}
