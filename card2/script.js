@@ -2,7 +2,7 @@ window.onload = function() {
     const gif = document.getElementById('gif');
     const staticImage = document.getElementById('static-image');
   
-    const gifDuration = 11500; // Set the GIF duration in milliseconds (adjust as needed)
+    const gifDuration = 13000; // Set the GIF duration in milliseconds (adjust as needed)
   
     // After the set duration, hide the GIF and show the static image
     setTimeout(() => {
@@ -11,9 +11,9 @@ window.onload = function() {
     }, gifDuration);
   };
   
-  const text = "The Fool seems to have gone over the edge. Click the subjects of the card to learn their meanings.";  // Single sentence to display
+  const text = "The rope around the Hanged Man's foot has broken. Click the subjects of the card to learn their meanings.";  // Single sentence to display
   const typingSpeed = 40;      // Milliseconds per character
-  const delayBeforeTyping = 11500; // Delay in milliseconds (2 seconds)
+  const delayBeforeTyping = 13000; // Delay in milliseconds (2 seconds)
   const textContainer = document.getElementById('text-container');
   
   /**
@@ -65,18 +65,6 @@ document.querySelectorAll('.click2').forEach(function(clickDiv) {
 });
 
 document.querySelectorAll('.click3').forEach(function(clickDiv) {
-    clickDiv.addEventListener('click', function() {
-        var contentId = this.getAttribute('data-target');
-        var content = document.getElementById(contentId);
-        if (content.classList.contains('hidden')) {
-            content.classList.remove('hidden');
-        } else {
-            content.classList.add('hidden');
-        }
-    });
-});
-
-document.querySelectorAll('.click4').forEach(function(clickDiv) {
     clickDiv.addEventListener('click', function() {
         var contentId = this.getAttribute('data-target');
         var content = document.getElementById(contentId);
