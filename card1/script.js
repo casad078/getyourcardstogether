@@ -39,11 +39,51 @@ window.onload = function() {
   }, delayBeforeTyping);
   
 
-document.querySelector('.click1').addEventListener('click', function() {
-  var content = document.getElementById('content');
-  if (content.classList.contains('hidden')) {
-      content.classList.remove('hidden');
-  } else {
-      content.classList.add('hidden');
-  }
+// script.js
+document.querySelectorAll('.click1').forEach(function(clickDiv) {
+    clickDiv.addEventListener('click', function() {
+        var contentId = this.getAttribute('data-target');
+        var content = document.getElementById(contentId);
+        if (content.classList.contains('hidden')) {
+            content.classList.remove('hidden');
+        } else {
+            content.classList.add('hidden');
+        }
+    });
+});
+
+document.querySelectorAll('.click2').forEach(function(clickDiv) {
+    clickDiv.addEventListener('click', function() {
+        var contentId = this.getAttribute('data-target');
+        var content = document.getElementById(contentId);
+        if (content.classList.contains('hidden')) {
+            content.classList.remove('hidden');
+        } else {
+            content.classList.add('hidden');
+        }
+    });
+});
+
+document.querySelectorAll('.click3').forEach(function(clickDiv) {
+    clickDiv.addEventListener('click', function() {
+        var contentId = this.getAttribute('data-target');
+        var content = document.getElementById(contentId);
+        if (content.classList.contains('hidden')) {
+            content.classList.remove('hidden');
+        } else {
+            content.classList.add('hidden');
+        }
+    });
+});
+
+document.querySelectorAll('.click4').forEach(function(clickDiv) {
+    clickDiv.addEventListener('click', function() {
+        var contentId = this.getAttribute('data-target');
+        var content = document.getElementById(contentId);
+        if (content.classList.contains('hidden')) {
+            content.classList.remove('hidden');
+        } else {
+            content.classList.add('hidden');
+        }
+    });
 });
