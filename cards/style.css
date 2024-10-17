@@ -25,7 +25,7 @@ body {
 
 #cards {
     position: relative;
-    bottom: 70%;
+    bottom: 80%;
     left: 25.5%;
 }
 
@@ -57,4 +57,17 @@ body {
     90% {transform: translate(1px,2px) rotate(0deg);}
     95% {transform: translate(1px,-2px) rotate(-2deg);}
     100% {transform: translate(-3px,0px) rotate(2deg);}
+}
+
+.text-container {
+    color: white;
+    position: absolute;
+    top: 10%;
+    left: 32%;   
+    color: white;font-family: "Newsreader", serif;
+    font-optical-sizing: auto;;
+    font-style: normal;
+    font-size: 20px;
+    z-index: 5;
+    padding: 25px;
 }

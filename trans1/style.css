@@ -25,7 +25,7 @@ body {
 
 #cards {
     position: relative;
-    bottom: 70%;
+    bottom: 80%;
     left: 25.5%;
 }
 
@@ -61,4 +61,29 @@ body {
 
 #fool img{
     padding-top: 20px;
+}
+
+.text-container {
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 29%;   
+    color: white;font-family: "Newsreader", serif;
+    font-optical-sizing: auto;;
+    font-style: normal;
+    font-size: 20px;
+    z-index: 5;
+    padding: 25px;
+    width: 40%;
+    font-size: 25px;
+}
+
+#continue-btn button {
+    color: white;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
 }
