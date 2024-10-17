@@ -35,6 +35,9 @@ body {
     top: 20%;
     left: 30%;
     color: white;
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: italic;
   }
 
   #continue-btn:hover {
