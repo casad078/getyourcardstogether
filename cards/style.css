@@ -71,3 +71,22 @@ body {
     z-index: 5;
     padding: 25px;
 }
+
+#home button {
+    position: absolute;
+    bottom: 0;
+    left: 46.5%;
+    background-color: transparent;
+    border: none;
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;;
+    font-style: normal;
+    font-size: 15px;
+    padding: 30px;
+    color: white;
+  }
+
+#home button:hover {
+    cursor: pointer;
+    font-style: italic;
+  }
