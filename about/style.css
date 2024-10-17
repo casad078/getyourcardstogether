@@ -1,0 +1,63 @@
+body {
+    background-color: black;
+    overflow: hidden;
+    margin: 0;
+    color: white;
+}
+
+.background img {
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+}
+
+p {
+    color: white;
+    font-size: 25px;
+    font-family: "Newsreader", serif;
+    font-style: normal;
+}
+
+#one, #two {
+    font-size: 15px;
+}
+
+#text {
+    margin-left: 150px;
+    margin-right: 60%;
+    padding-top: 50px;
+}
+
+span {
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+h1 {
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+    padding-top: 60px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    font-family: "Newsreader", serif;
+    font-style: normal;
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+    font-style: italic;
+}
+
+a {
+    position:absolute;
+    bottom: 0;
+    left: 49%;
+    padding: 20px;
+}
