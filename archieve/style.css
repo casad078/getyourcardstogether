@@ -129,8 +129,10 @@
     right: 34%;
     color: #fff;
     font-size: 35px;
-    font-weight: bold;
     cursor: pointer;
+    font-family: "Newsreader", serif;
+    font-style: normal;
+    font-size: 15px;
   }
 
   .close:hover {

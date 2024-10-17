@@ -1,0 +1,121 @@
+body {
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+
+#background1 {
+    z-index: 1;
+    margin-top: -40px;
+}
+
+#background1 img {
+    width: 105%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cards img {
+    width: 22%;
+    margin-left: -29px;
+    margin-right: -25px;
+    z-index: -1;
+}
+
+#cards {
+    position: relative;
+    bottom: 90%;
+    left: 23%;
+}
+
+#cards img:hover {
+    animation-name: shake-image;
+    animation-duration: 1.8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake-image{
+    0% {transform: translate(1px,1px) rotate(0deg);}
+    5% {transform: translate(-1px,-2px) rotate(-2deg);}
+    10% {transform: translate(-3px,0px) rotate(2deg);}
+    15% {transform: tanslate(3px,2px) rotate(0deg);}
+    20% {transform: translate(1px,-1px) rotate(2deg);}
+    25% {transform: translate(-1px,2px) rotate(-2deg);}
+    30% {transform: translate(-3px,1px) rotate(0deg);}
+    35% {transform: translate(3px,1px) rotate(-2deg);}
+    40% {transform: translate(-1px,-1px) rotate(2deg);}
+    45% {transform: translate(1px,2px) rotate(0deg);}
+    50% {transform: translate(1px,-2px) rotate(-2deg);}
+    55% {transform: translate(-3px,0px) rotate(2deg);}
+    60% {transform: translate(3px,2px) rotate(0deg);}
+    65% {transform: translate(1px,-1px) rotate(2deg);}
+    70% {transform: translate(-1px,2px) rotate(-2deg);}
+    75% {transform: translate(-3px,1px) rotate(0deg);}
+    80% {transform: translate(3px,1px) rotate(-2deg);}
+    85% {transform: translate(-1px,-1px) rotate(2deg);}
+    90% {transform: translate(1px,2px) rotate(0deg);}
+    95% {transform: translate(1px,-2px) rotate(-2deg);}
+    100% {transform: translate(-3px,0px) rotate(2deg);}
+}
+
+#fool img{
+    padding-top: 20px;
+}
+
+.text-container {
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;font-family: "Newsreader", serif;
+    font-optical-sizing: auto;;
+    font-style: normal;
+    font-size: 20px;
+    z-index: 5;
+    padding-top: 55px;
+    font-size: 20px;
+}
+
+#text-container {
+    text-align: center;
+    width: 40%;
+    margin-left: 29.5%;
+}
+
+
+#continue-btn {
+    color: white;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 20%;
+    left: 65%;
+    z-index: 5;
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+#continue-btn:hover {
+    opacity: 70%;
+  }
+
+#home button {
+    position: absolute;
+    bottom: 0;
+    left: 45.5%;
+    background-color: transparent;
+    border: none;
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 15px;
+    padding: 30px;
+    color: white;
+  }
+
+#home button:hover {
+    cursor: pointer;
+    font-size: 20px;
+  }
