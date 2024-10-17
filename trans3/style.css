@@ -5,7 +5,7 @@ body {
 }
 
 #background1 {
-    z-index: 1;
+    z-index: -1;
     margin-top: -40px;
 }
 
@@ -17,16 +17,15 @@ body {
 }
 
 #cards img {
-    width: 22%;
-    margin-left: -29px;
-    margin-right: -25px;
-    z-index: -1;
+    width: 17%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #cards {
     position: relative;
-    bottom: 90%;
-    left: 23%;
+    bottom: 82%;
+    left: 24%;
 }
 
 #cards img:hover {

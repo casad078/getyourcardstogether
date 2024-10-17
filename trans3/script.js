@@ -1,15 +1,15 @@
 const texts = [
-    "The hanged man understands that his position is a sacrifice that he needed to make in order to progress forward - whether as repentance for past wrongdoings, or a calculated step backward to recalculate his path onward. ",
-    "This time he spends here will not be wasted, he does this as part of his progression forward.",
-    "His upside down state can also symbolize the feeling of those that walk a spiritual path, for they see the world differently. Where there are others that do not understand the need to sacrifice, you see it differently.",
-    "This is a natural course of action for you as you walk the path alone.",
-    "The Hanged Man card reflects a particular need to suspend certain action. As a result, this might indicate a certain period of indecision.",
-    "This means that certain actions or decisions which need to be properly implemented are likely to be postponed even if there is an urgency to act at this particular moment. In fact, it would be ultimately the best if you are capable of stalling certain actions in order to ensure that you have more time to reflect on making critical decisions, this will ultimately be the best.",
-    "Click the last card to finalize your reading."
+    "Your tarot reading with The Fool, The Hanged Man, and The Hermit presents a powerful narrative about personal growth, new beginnings, and introspection.",
+    "The Fool represents the start of a new journey, an invitation to embrace adventure and the unknown. It suggests a willingness to take risks and a sense of optimism or naivety. This card can indicate that you're on the verge of something new, a fresh start or opportunity where you are encouraged to trust yourself and the path ahead.",
+    "The Hanged Man often symbolizes a period of waiting or suspension. It suggests that now might be a time for reflection and letting go of control, as you seek a new perspective. This card can indicate that you're in a state of limbo, needing to embrace a change in thinking or attitude. Sometimes, it reflects a sacrifice or a delay that is ultimately for your greater good.",
+    "The Hermit encourages a time of inner reflection and withdrawal from external distractions. It’s about searching for personal truth and guidance through introspection. This card may suggest that you need solitude to understand your deeper desires or spiritual goals, or that you're seeking enlightenment by turning inward.",
+    "The Fool marks the beginning of an adventure, where you're asked to embrace the unknown and take a leap of faith. The Hanged Man introduces a pause or a shift in perspective, asking you to release old patterns of thinking and accept a new way of seeing things. This could be a necessary time of surrender before you can continue forward.The Hermit points to deep introspection during this journey. It suggests that you’ll find your answers not in external sources but by turning inward, perhaps during a period of solitude or reflection.",
+    "In this context, your reading could indicate that you are entering a phase of significant personal growth, with a need for both trust in the process (The Fool) and time for self-reflection (The Hanged Man and The Hermit). There may be challenges or delays, but ultimately, it’s a journey toward greater wisdom and self-understanding.",
+    "There you are dear. I hope i've provided you some insight on your journey. Come again soon."
 ];
 
 let currentTextIndex = 0;
-const typingSpeed = 40; // milliseconds per character
+const typingSepeed = 40; // milliseconds per character
 
 const textContainer = document.getElementById('text-container');
 const continueBtn = document.getElementById('continue-btn');
