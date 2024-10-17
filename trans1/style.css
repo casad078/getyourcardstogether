@@ -67,23 +67,55 @@ body {
     color: white;
     position: absolute;
     top: 0;
-    left: 29%;   
+    left: 0;
     color: white;font-family: "Newsreader", serif;
     font-optical-sizing: auto;;
     font-style: normal;
     font-size: 20px;
     z-index: 5;
-    padding: 25px;
-    width: 40%;
-    font-size: 25px;
+    padding-top: 55px;
+    font-size: 20px;
 }
 
-#continue-btn button {
+#text-container {
+    text-align: center;
+    width: 40%;
+    margin-left: 29.5%;
+}
+
+
+#continue-btn {
     color: white;
     background-color: transparent;
     border: none;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 20%;
+    left: 65%;
     z-index: 5;
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: italic;
 }
+
+#continue-btn:hover {
+    opacity: 70%;
+  }
+
+#home button {
+    position: absolute;
+    bottom: 0;
+    left: 46.5%;
+    background-color: transparent;
+    border: none;
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;;
+    font-style: normal;
+    font-size: 15px;
+    padding: 30px;
+    color: white;
+  }
+
+#home button:hover {
+    cursor: pointer;
+    font-style: italic;
+  }

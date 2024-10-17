@@ -1,9 +1,11 @@
 const texts = [
-    "Hello dear.",
-    "You're a lost soul, aren't you?",
-    "My.",
-    "Well, come closer then.",
-    "I will bring you guidance."
+    "You pulled the Fool.",
+    "The Fool is a card of new beginnings, opportunity and potential. Just like the young man, you are at the outset of your journey, standing at the cliff‘s edge, and about to take your first step into the unknown.",
+    "Even though you don’t know exactly where you are going, you are being called to commit yourself and follow your heart, no matter how crazy this leap of faith might seem to you.",
+    "As you undertake this new journey, the Fool encourages you to have an open, curious mind and a sense of excitement. Throw caution to the wind and be ready to embrace the unknown, leaving behind any fear, worry or anxiety about what may or may not happen.",
+    "This is about new experiences, personal growth, development, and adventure.",
+    "Seriously, what are you waiting for?",
+    "Click the next card to continue your reading."
 ];
 
 let currentTextIndex = 0;
@@ -12,8 +14,8 @@ const typingSpeed = 40; // milliseconds per character
 const textContainer = document.getElementById('text-container');
 const continueBtn = document.getElementById('continue-btn');
 
-// Disable button initially until typing is done
-continueBtn.disabled = true;
+// Make sure the button is visible initially
+continueBtn.style.display = 'block';
 
 /**
  * Types out the given text in the textContainer with a typing effect.
@@ -39,6 +41,7 @@ function typeText(text, callback) {
  */
 function showNextText() {
     if (currentTextIndex < texts.length) {
+        continueBtn.style.display = 'block'; // Ensure the button is visible
         continueBtn.disabled = true; // Disable button during typing
         typeText(texts[currentTextIndex], () => {
             continueBtn.disabled = false; // Enable button after typing
@@ -51,7 +54,7 @@ function showNextText() {
 }
 
 /**
- * Hides the "Continue" button.
+ * Hides the "Continue" button after all text is shown.
  */
 function hideContinueButton() {
     continueBtn.style.display = 'none'; // Hide the button
